@@ -8,6 +8,7 @@ import About from './components/About'
 import Education from './components/Education'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import CustomCursor from './components/CustomCursor'
 
 function App() {
   const [loaded, setLoaded] = useState(false)
@@ -25,6 +26,7 @@ function App() {
           transition={{ duration: 0.6 }}
           style={{ position: 'relative', zIndex: 1 }}
         >
+          <CustomCursor></CustomCursor>
           <Navbar />
           <main>
             <Hero />
