@@ -141,11 +141,12 @@ export default function Contact() {
           </p>
 
           <motion.a
-            href='https://mail.google.com/mail/?view=cm&fs=1&to=arinsarker07@gmail.com&su=Contacting+from+Portfolio'
+            href="/ARIN-SARKER_FRONTEND_DEVELOPER_RESUME.pdf"         
+            download="Arin_Sarker_Resume" 
             className="btn-primary"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
-            style={{ display: 'inline-flex' }}
+            style={{ display: 'inline-flex', gap: '8px', alignItems: 'center' }} // আইকন ও টেক্সট সোজা রাখার জন্য
           >
             <FaDownload size={16} />
             Download Resume
