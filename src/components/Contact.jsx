@@ -141,15 +141,16 @@ export default function Contact() {
           </p>
 
           <motion.a
-            href="/ARIN-SARKER_FRONTEND_DEVELOPER_RESUME.pdf"         
-            download="Arin_Sarker_Resume" 
+            href="https://drive.google.com/file/d/1EHfF8bcdWE1mirgV6venQ7keziqgK5DP/view?usp=sharing"
+            target="_blank"
+            rel="noopener noreferrer"
             className="btn-primary"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
-            style={{ display: 'inline-flex', gap: '8px', alignItems: 'center' }} // আইকন ও টেক্সট সোজা রাখার জন্য
+            style={{ display: 'inline-flex', gap: '8px', alignItems: 'center' }}
           >
             <FaDownload size={16} />
-            Download Resume
+            My Resume
           </motion.a>
         </motion.div>
 
